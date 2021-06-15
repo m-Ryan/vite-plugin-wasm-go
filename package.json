@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-wasm-go",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vite plugin for go compile wasm",
   "main": "src/index.ts",
   "scripts": {
