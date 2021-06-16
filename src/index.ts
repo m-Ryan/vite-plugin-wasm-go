@@ -35,7 +35,6 @@ export default function wasmGo(option: WasmGoOption) {
   return {
     name: 'vite-plugin-wasm-go',
     config(config: UserConfig, env: { mode: string, command: 'serve' | 'build'; }) {
-      console.log('env.command', env.command);
       if (env.command === 'serve') {
         isDevelopment = true;
       }
