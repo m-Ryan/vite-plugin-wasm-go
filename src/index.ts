@@ -1,10 +1,10 @@
-import path from 'path';
+import * as  path from 'path';
 import { execFile, execSync } from 'child_process';
-import dotenv from 'dotenv';
+import * as  dotenv from 'dotenv';
 import { readFileSync, writeFileSync } from 'fs';
-import chalk from 'chalk';
-import os from 'os';
-import fs from 'fs';
+import * as  chalk from 'chalk';
+import * as  os from 'os';
+import * as  fs from 'fs';
 import { ResolvedConfig, ViteDevServer, UserConfig } from 'vite';
 
 const fileRegex = /\.go$/;

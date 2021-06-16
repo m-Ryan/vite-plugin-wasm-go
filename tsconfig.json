@@ -1,24 +1,24 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES2015",
     "lib": [],
     "types": [
       "vite/client",
       "node"
     ],
+    "outDir": "dist",
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
+    "allowSyntheticDefaultImports": false,
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "alwaysStrict": false,
     "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": false,
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "Node",
-    "resolveJsonModule": true,
     "declaration": true,
     "rootDir": "src",
     "baseUrl": ".",
